@@ -1,0 +1,2 @@
+# BugTrackerJHipster
+BugTrackerJHipster
