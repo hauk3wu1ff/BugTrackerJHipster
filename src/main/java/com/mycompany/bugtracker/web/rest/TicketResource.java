@@ -147,7 +147,7 @@ public class TicketResource {
         return ResponseEntity.noContent().headers(HeaderUtil.createEntityDeletionAlert(applicationName, true, ENTITY_NAME, id.toString())).build();
     }
     
-    @GetMapping("/ticket/self")
+    @GetMapping("/tickets/self")
     public ResponseEntity<List<Ticket>> getAllSelfTickets(
     		Pageable pageable,
     		@RequestParam(required = false) MultiValueMap<String, String> queryParams,
